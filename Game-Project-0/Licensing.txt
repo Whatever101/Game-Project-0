@@ -1,0 +1,26 @@
+﻿Used Assets Licenses and Credit:
+
+1- clearsky.png
+-Creator: https://craftpix.net/
+-Licensing: Allowed for commercial and personal projects.
+			See Term 2.0 in https://craftpix.net/file-licenses/ for more detail.
+
+2- northernlight.png
+-Creator: https://craftpix.net/
+-Licensing: Allowed for commercial and personal projects.
+			See Term 2.0 in https://craftpix.net/file-licenses/ for more detail.
+
+3- stars.png
+-Creator: https://craftpix.net/
+-Editor: Ebraheem Mustafa
+-Licensing: Allowed for commercial and personal projects.
+			See Term 2.0 in https://craftpix.net/file-licenses/ for more detail.
+
+4-MenuWood.png
+-Creator: Narik/NarikTheArtist
+-Editor: Ebraheem Mustafa
+-Licensing: Creative Commons Zero v1.0 Universal
+
+5-WoodGUI.png
+-Creator: Narik/NarikTheArtist
+-Licensing: Creative Commons Zero v1.0 Universal
