@@ -2,23 +2,24 @@
 
 1- clearsky.png
 -Creator: https://craftpix.net/
--Licensing: Allowed for commercial and personal projects.
+-Licensing: Allowed for commercial and personal projects, allowed for modification.
 			See Term 2.0 in https://craftpix.net/file-licenses/ for more detail.
 
 2- northernlight.png
 -Creator: https://craftpix.net/
--Licensing: Allowed for commercial and personal projects.
+-Licensing: Allowed for commercial and personal projects, allowed for modification.
 			See Term 2.0 in https://craftpix.net/file-licenses/ for more detail.
 
-3- stars.png
+3-stars.png
 -Creator: https://craftpix.net/
--Editor: Ebraheem Mustafa
--Licensing: Allowed for commercial and personal projects.
+-Modified by Ebraheem Mustafa (Star designs from above used background were extracted,
+redrawn and interpolated frame-wise manually.)
+-Licensing: Allowed for commercial and personal projects, allowed for modification.
 			See Term 2.0 in https://craftpix.net/file-licenses/ for more detail.
 
 4-MenuWood.png
 -Creator: Narik/NarikTheArtist
--Editor: Ebraheem Mustafa
+Modified By Ebraheem Mustafa (It's been elongated horizontally to become shaped like a menu)
 -Licensing: Creative Commons Zero v1.0 Universal
 
 5-WoodGUI.png
