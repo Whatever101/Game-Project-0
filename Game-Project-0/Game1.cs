@@ -141,10 +141,20 @@ namespace Game_Project_0
             }
 
             // TODO: Add your update logic here
-            for (int i = 0; i < 7; i++)
-            { _stars[i].Update(gameTime); }
+
+            foreach (StarSprite star in _stars) {
+                if (star.Bounds.CollidesWith(_wood.Bounds))
+
+                {
+                    star.Reset();
+                }
+                star.Update(gameTime);
+
+            }
             base.Update(gameTime);
+
         }
+
 
         protected override void Draw(GameTime gameTime)
         {
@@ -163,7 +173,7 @@ namespace Game_Project_0
 
 
 
-            _wood.Draw(_spriteBatch, new Vector2(74, 48));
+            _wood.Draw(_spriteBatch);
 
             _startButton.Draw(_spriteBatch);
 

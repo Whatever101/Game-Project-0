@@ -1,4 +1,5 @@
-﻿using Microsoft.Xna.Framework;
+﻿using Game_Project_0.Collisions;
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using System;
@@ -30,6 +31,9 @@ namespace Game_Project_0
 
         private Vector2 _position = new Vector2(-999,-999);
 
+        private BoundingRectangle bounds;
+
+        public BoundingRectangle Bounds => bounds;
 
         private int _animationColor;
 
@@ -46,6 +50,14 @@ namespace Game_Project_0
         public void Update(GameTime gameTime)
         {
 
+        }
+
+        /// <summary>
+        /// Forces it to reset by reappearing at a different place
+        /// </summary>
+        public void Reset()
+        {
+            _animationFrame = 11;
         }
 
         public void Draw(GameTime gameTime, SpriteBatch spriteBatch)
@@ -66,6 +78,8 @@ namespace Game_Project_0
                     _animationColor = rng.Next(0, 5);
                     _position.X = rng.Next(10, 780);
                     _position.Y = rng.Next(10, 470);
+
+                    bounds = new BoundingRectangle(new Vector2(_position.X - 13.365f, _position.Y), 9 * 1.485f, 9 * 1.485f);
 
                     int a = rng.Next(-4, 4);
                     if (a < 0) //if negative, add "-" sign to the text, and flip out variable "a".

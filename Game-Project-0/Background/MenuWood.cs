@@ -1,4 +1,5 @@
-﻿using Microsoft.Xna.Framework;
+﻿using Game_Project_0.Collisions;
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using SharpDX.Direct3D9;
@@ -16,17 +17,18 @@ namespace Game_Project_0.Background
     public class MenuWood
     {
         private Texture2D _texture;
-
+        private Vector2 _position = new Vector2(74, 48);
+        private BoundingRectangle bounds = new BoundingRectangle(new Vector2(133, 52), 518, 373);
+        public BoundingRectangle Bounds => bounds;
+        public Color Shade = Color.White;
         public void LoadContent(ContentManager content)
         {
             _texture = content.Load<Texture2D>("menuwood");
         }
 
-        public void Draw(SpriteBatch spriteBatch, Vector2 vector2)
+        public void Draw(SpriteBatch spriteBatch)
         {
-            var source = new Rectangle(450, 642, 93, 93);
-
-            spriteBatch.Draw(_texture, vector2, null, Color.White, 0, new Vector2(8, 0), 1f, SpriteEffects.None, 1);
+            spriteBatch.Draw(_texture, _position, null, Shade, 0, new Vector2(8, 0), 1f, SpriteEffects.None, 1);
         }
     }
 }
